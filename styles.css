@@ -1,6 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@900&display=swap'); body {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Kanit:wght@900&display=swap');
+
+
+body {
     background: #191819;
     color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
 nav ul {
@@ -10,6 +23,14 @@ nav ul {
 
 nav ul li {
     list-style-type: none;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+.logo {
+    background: white;
+    color: black;
+    padding: 10px;
 }
 
 
@@ -20,8 +41,14 @@ header {
     justify-content: center;
 }
 
+@media screen and (min-width: 700px) {
+    header {
+        height: 65vh;
+    }
+}
+
 .title, .squiggle {
-    width: 70vw;
+    width: 60vw;
     height: auto;
 }
 
@@ -32,6 +59,10 @@ header {
 
 
 @media screen and (max-width: 700px) {
+
+    header {
+        height: 45vh;
+    }
 
     .title, .squiggle {
         width: 90vw;
