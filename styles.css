@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@900&display=swap'); body {
+    background: #191819;
+    color: #FFFFFF;
+}
+
+nav ul {
+    display: flex;
+    justify-content:space-between;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title, .squiggle {
+    width: 70vw;
+    height: auto;
+}
+
+.squiggle {
+    margin-top: 1vw;
+}
+
+
+
+@media screen and (max-width: 700px) {
+
+    .title, .squiggle {
+        width: 90vw;
+        height: auto;
+    }
+
+    .squiggle {
+        margin-top: 4vw;
+    }
+}
+
+
+
+h1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 6vw;
+    margin: 0;
+    line-height: 1;
+    letter-spacing: 1vw;
+}
+
+.hero-container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "icon-1 front front front" "developer developer developer icon-2" "icon-3 designer designer designer";
+}
+
+.front {
+    grid-area: front;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.icon-1 {
+    grid-area: icon-1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 2vw;
+}
+
+.icon-2 {
+    grid-area: icon-2;
+}
+
+.developer {
+    grid-area: developer;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.icon-3 {
+    grid-area: icon-3;
+}
+
+.designer {
+    grid-area: designer;
+}
