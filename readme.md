@@ -6,21 +6,22 @@ WORK IN PROGRESS
 
 - [x] homepage - responsive hero section
 - [] homepage - responsive nav
-about
-- [x] homepage - about 
-- [x] homepage - about image
-- [x] homepage - about icons
-- [x] homepage - about - read more
-- [x] homepage - about - contact responsiveness
-- [] homepage - about - social icon links
-- [] homepage - about - contact links
-skills
-- [] homepage - skills 
-projects
-- [] homepage - projects 
-footer
-- [] homepage - footer
-other pages
+- [] A B O U T
+- [x] about image
+- [x] about icons
+- [x] about - read more
+- [x] about - contact responsiveness
+- [x] about - social icon links
+- [] about - contact links
+- [] S K I L L S
+- [x] skills content
+- [x] skills icons
+- [x] skills list
+- [] P R O J E C T S 
+- [] projects 
+- [] F O O T E R 
+- [] footer
+- [] O T H E R  P A G E S
 - [] about page
 - [] projects page
 - [] contact page
