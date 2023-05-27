@@ -2,9 +2,25 @@
 
 WORK IN PROGRESS
 
+## Next steps
+
+- [x] homepage - responsive hero section
+- [] homepage - responsive nav
+- [] homepage - about 
+- [] homepage - about image
+- [] homepage - about icons
+- [] homepage - projects 
+- [] homepage - skills 
+- [] homepage - footer
+- [] about page
+- [] projects page
+- [] contact page
+- [] animations
+
+
 👀 [LIVE PREVIEW](https://bizzy-coding.github.io/) coming soon....
 
-A new space to showcase my best work
+A new space to showcase my best work in
 - html
 - css
 - javascript
