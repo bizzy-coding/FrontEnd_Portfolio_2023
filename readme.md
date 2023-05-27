@@ -2,18 +2,25 @@
 
 WORK IN PROGRESS
 
-## Next steps
+## TO DO LIST
 
 - [x] homepage - responsive hero section
 - [] homepage - responsive nav
+about
 - [x] homepage - about 
 - [x] homepage - about image
 - [x] homepage - about icons
-- [] homepage - about - read more
+- [x] homepage - about - read more
+- [x] homepage - about - contact responsiveness
 - [] homepage - about - social icon links
-- [] homepage - projects 
+- [] homepage - about - contact links
+skills
 - [] homepage - skills 
+projects
+- [] homepage - projects 
+footer
 - [] homepage - footer
+other pages
 - [] about page
 - [] projects page
 - [] contact page
