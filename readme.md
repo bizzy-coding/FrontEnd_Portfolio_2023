@@ -6,9 +6,11 @@ WORK IN PROGRESS
 
 - [x] homepage - responsive hero section
 - [] homepage - responsive nav
-- [] homepage - about 
-- [] homepage - about image
-- [] homepage - about icons
+- [x] homepage - about 
+- [x] homepage - about image
+- [x] homepage - about icons
+- [] homepage - about - read more
+- [] homepage - about - social icon links
 - [] homepage - projects 
 - [] homepage - skills 
 - [] homepage - footer
