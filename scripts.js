@@ -21,10 +21,10 @@ readMoreBtn.addEventListener("click", function (e) {
 });
 
 const techIcons = {
-  html: "/icons/html-icon.svg",
-  css: "/icons/css-icon.svg",
-  js: "/icons/js-icon.svg",
-  react: "/icons/icon-react.svg",
+  html: "./icons/html-icon.svg",
+  css: "./icons/css-icon.svg",
+  js: "./icons/js-icon.svg",
+  react: "./icons/icon-react.svg",
 };
 
 const projects = [
@@ -32,14 +32,14 @@ const projects = [
     name: "Project 1",
     blurb: "My journey into web development took a unique path, starting with fashion studies and transitioning into graphic design.",
     techStack: ["html", "css", "js"],
-    img: "/imgs/proj1.png",
+    img: "./imgs/proj1.png",
   },
 
   {
     name: "Project 2",
     blurb: "My journey into web development took a unique path, starting with fashion studies and transitioning into graphic design.",
     techStack: ["html", "css", "react"],
-    img: "/imgs/proj1.png",
+    img: "./imgs/proj1.png",
   },
 ];
 
