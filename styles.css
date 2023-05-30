@@ -293,15 +293,9 @@ img.project-img {
     max-width: 50%;
     height: fit-content;
     border-radius: 20px;
+    object-fit: cover;
 }
 
-img.project-img  {
-    animation-play-state: paused;
-  }
-  
-  img.project-img :hover {
-    animation-play-state: running;
-  }
 
 img.tech-icon {
   margin-right: 20px;
