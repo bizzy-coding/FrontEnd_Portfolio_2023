@@ -11,11 +11,7 @@
 - [x] homepage - responsive hero section
 - [ ] homepage - responsive nav
 - [ ] A B O U T
-- [x] about image
-- [x] about icons
-- [x] about - read more
-- [x] about - contact responsiveness
-- [x] about - social icon links
+- [x] about content
 - [ ] about - contact links
 - [ ] S K I L L S
 - [x] skills content
@@ -24,7 +20,9 @@
 - [ ] P R O J E C T S 
 - [x] project object
 - [x] project functionality
-- [ ] projects bug - why images not pulling through
+- [x] projects bug - why images not pulling through
+- [ ] add in more projects
+- [ ] gif functionality pause until hover
 - [ ] F O O T E R 
 - [ ] footer content
 - [ ] O T H E R  P A G E S
@@ -69,4 +67,4 @@ Coding is life 💻
 
 Inspiration, code snippets, etc.
 * [CSS Filter generator](https://codepen.io/sosuke/pen/Pjoqqp)
-* [coming soon](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc#file-readme-template-md)
+* [CSS ticker](https://codepen.io/lewismcarey/pen/GJZVoG)

@@ -25,23 +25,39 @@ const techIcons = {
   css: "./icons/css-icon.svg",
   js: "./icons/js-icon.svg",
   react: "./icons/icon-react.svg",
+  bs: "./icons/bs-icon.svg",
 };
 
 const projects = [
   {
-    name: "Project 1",
-    blurb: "My journey into web development took a unique path, starting with fashion studies and transitioning into graphic design.",
+    name: "Nested Accordion",
+    blurb: "FAQ section - designed in Figma, built using vanilla Javascript and CSS. Accordion functionality uses basic loop and event listeners.",
     techStack: ["html", "css", "js"],
-    img: "./imgs/proj1.png",
+    img: "./imgs/FAQ.gif",
     url: "https://codepen.io/Bizzy-Coding/pen/abaoOzg",
   },
 
   {
-    name: "Project 2",
-    blurb: "My journey into web development took a unique path, starting with fashion studies and transitioning into graphic design.",
-    techStack: ["js", "react"],
-    img: "./imgs/proj1.png",
-    url: "https://codepen.io/Bizzy-Coding/pen/abaoOzg",
+    name: "Text Animation",
+    blurb: "Pure CSS animation. The 'transform: scaleY' property adjusts the text height, and alternating the transform origin on each word enables this effect.",
+    techStack: ["html", "css"],
+    img: "./imgs/bizzy-animate.gif",
+    url: "https://codepen.io/Bizzy-Coding/pen/zYWqQBJ",
+  },
+
+  {
+    name: "To Do App",
+    blurb: "Minimal to do list - designed with simplicity in mind and using Adobe XD. Built using Vanilla Javascript.",
+    techStack: ["css", "js"],
+    img: "./imgs/todo.gif",
+    url: "https://bizzy-coding.github.io/Javascript-To-Do-App/",
+  },
+  {
+    name: "Tin Dog Landing Page",
+    blurb: "Looking to meet new and interesting dogs nearby? You need TinDog! The pooch of your dreams could be one swipe away. The TinDog site was a module in Angela Yu’s App Brewery font end developer course, on Udemy.",
+    techStack: ["html", "bs"],
+    img: "./imgs/tindog.gif",
+    url: "https://bizzlebizzle.github.io/tindog/",
   },
 ];
 

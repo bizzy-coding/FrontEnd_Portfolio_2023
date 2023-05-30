@@ -8,7 +8,7 @@ body {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   margin: 0;
-  margin-bottom: 100px;
+  margin-bottom: 300px;
 }
 
 p {
@@ -278,18 +278,38 @@ svg.title {
 
 .projects-container {
   display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
 .project-card {
+  display: flex;
   width: 45%;
+  gap: 40px;
 }
+
+img.project-img {
+    max-width: 50%;
+    height: fit-content;
+    border-radius: 20px;
+}
+
+img.project-img  {
+    animation-play-state: paused;
+  }
+  
+  img.project-img :hover {
+    animation-play-state: running;
+  }
 
 img.tech-icon {
   margin-right: 20px;
+  max-width: 35px;
+
 }
 
 .project-btn {
-    position: relative;
+  position: relative;
   border: 2px solid #e7eaee;
   border-radius: 36px;
   padding: 19px 35px;
@@ -301,11 +321,11 @@ img.tech-icon {
 }
 
 svg.lilac-arrow {
-    position: absolute;
-    right: -84px;
-    top: 50%;
-    bottom: 50%;
-    margin: auto;
+  position: absolute;
+  right: -84px;
+  top: 50%;
+  bottom: 50%;
+  margin: auto;
 }
 
 /* ----------- ICON SECTION  ---------- */
@@ -629,7 +649,6 @@ svg.lilac-arrow {
 
   .project-card {
     width: 100%;
-    display: flex;
     flex-direction: column;
   }
 }
@@ -665,16 +684,17 @@ svg.lilac-arrow {
   bottom: 0;
   width: 100%;
   overflow: hidden;
-  height: 4rem;
-  background-color: pink;
+  height: 3rem;
+  background-color: #191819;
   padding-left: 100%;
   box-sizing: content-box;
+  padding-top: 20px;
 }
 
 .ticker {
   display: inline-block;
-  height: 4rem;
-  line-height: 4rem;
+  height: 2rem;
+  line-height: 2rem;
   white-space: nowrap;
   padding-right: 100%;
   box-sizing: content-box;
@@ -692,7 +712,7 @@ svg.lilac-arrow {
 .ticker__item {
   display: inline-block;
 
-  padding: 0 2rem;
-  font-size: 2rem;
-  color: black;
+  padding: 0 27rem;
+  font-size: 1rem;
+  color: white;
 }
