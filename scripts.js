@@ -33,13 +33,15 @@ const projects = [
     blurb: "My journey into web development took a unique path, starting with fashion studies and transitioning into graphic design.",
     techStack: ["html", "css", "js"],
     img: "./imgs/proj1.png",
+    url: "https://codepen.io/Bizzy-Coding/pen/abaoOzg",
   },
 
   {
     name: "Project 2",
     blurb: "My journey into web development took a unique path, starting with fashion studies and transitioning into graphic design.",
-    techStack: ["html", "css", "react"],
+    techStack: ["js", "react"],
     img: "./imgs/proj1.png",
+    url: "https://codepen.io/Bizzy-Coding/pen/abaoOzg",
   },
 ];
 
@@ -59,13 +61,23 @@ projects.forEach((project) => {
   projectTxt.innerHTML = `
         <h3>${project.name}</h3>
         <p>${project.blurb}</p>
+        <h3>Built Using</h3>
     `;
 
   project.techStack.forEach((tech) => {
     var icon = document.createElement("img");
-    icon.src = techIcons[tech]; // Assuming you have the techIcons object defined
+    icon.classList.add('tech-icon')
+    icon.src = techIcons[tech]; 
     projectTxt.appendChild(icon);
   });
 
   projectImg.src = project.img;
+
+  var projectBtn = document.createElement('div');
+  projectBtn.classList.add('project-btn');
+  projectBtn.innerHTML = `
+  view
+  `;
+  projectTxt.appendChild(projectBtn);
+
 });

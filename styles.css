@@ -274,7 +274,7 @@ svg.title {
     align-items: center;
 }
 
-/* ----------- PROJECTS  ---------- */
+/* ----------- PROJECTS SECTION  ---------- */
 
 .projects-container {
     display: flex;
@@ -282,6 +282,21 @@ svg.title {
 
 .project-card {
     width: 45%;
+}
+
+img.tech-icon {
+    margin-right: 20px;
+}
+
+.project-btn {
+    border: 2px solid #E7EAEE;
+    border-radius: 36px;
+    padding: 19px 35px; 
+    width: 100px;
+    text-transform: uppercase;
+    display: grid;
+    place-content: center;
+    margin-top: 20px;
 }
 /* ----------- ICON SECTION  ---------- */
 
@@ -591,7 +606,7 @@ svg.title {
         justify-content: left;
         align-items: left;
         text-align: left;
-        width: 150px;
+        width: 100px;
         margin: auto;
     }
 

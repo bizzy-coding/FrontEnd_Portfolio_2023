@@ -68,5 +68,5 @@ Coding is life 💻
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
-* [coming soon](https://www.youtube.com/watch?v=Ttf3CEsEwMQ)
+* [CSS Filter generator](https://codepen.io/sosuke/pen/Pjoqqp)
 * [coming soon](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc#file-readme-template-md)
