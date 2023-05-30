@@ -7,7 +7,7 @@ body {
     color: #ffffff;
     font-family: "Inter", sans-serif;
     font-weight: 500;
-    margin: 0 100px;
+    margin: 0 130px;
 }
 
 p {
@@ -39,6 +39,10 @@ h3 {
 h2 {
     font-size: 36px;
     
+}
+
+section {
+    margin: 20px;
 }
 
 
@@ -187,9 +191,7 @@ svg.title {
 
 /* ----------- ABOUT ---------- */
 
-section#about {
-    margin: 20px;
-}
+
 
 
 .profile-img-wrap {
@@ -227,7 +229,7 @@ section#about {
 .skills-icon-wrap {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 125px;
     justify-content: space-between;
     margin: 74px 0;
 }
@@ -267,7 +269,7 @@ section#about {
 
 .skill-wrap {
     display: flex;
-    gap: 31px;
+    gap: 30px;
     justify-content: flex-start;
     align-items: center;
 }
@@ -585,8 +587,15 @@ section#about {
         justify-content: left;
         align-items: left;
         text-align: left;
-        width: 200px;
+        width: 150px;
         margin: auto;
+    }
+
+    .skill-wrap {
+        display: flex;
+        gap: 10px;
+        justify-content: flex-start;
+        align-items: center;
     }
 
     .project-card {
