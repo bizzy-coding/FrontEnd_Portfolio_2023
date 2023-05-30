@@ -8,7 +8,7 @@ body {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   margin: 0;
-  margin-bottom: 300px;
+  margin-bottom: 100px;
 }
 
 p {
@@ -40,7 +40,8 @@ h2 {
 
 section,
 header,
-nav {
+nav,
+footer {
   margin: 20px;
   margin: 0 130px;
 }
@@ -517,12 +518,14 @@ svg.lilac-arrow {
   /* CSS rules for mobile devices */
 
   header {
-    margin: 40px 40px;
+    margin: 120px 40px;
   }
 
   section,
   nav {
     margin: 10px 40px;
+    justify-content: center;
+    margin-top: 32px;
   }
 
   h2 {
@@ -650,7 +653,24 @@ svg.lilac-arrow {
   .project-card {
     width: 100%;
     flex-direction: column;
+    align-items: center;
   }
+
+  svg.lilac-arrow {
+    display: none;
+}
+
+.project-txt {
+    text-align: center;
+}
+
+.project-btn {
+    margin: 38px auto;
+}
+
+.projects-container {
+    margin-top: 74px;
+}
 }
 
 @-webkit-keyframes ticker {
