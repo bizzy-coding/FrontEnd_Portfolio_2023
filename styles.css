@@ -665,6 +665,10 @@ svg.lilac-arrow {
 .projects-container {
     margin-top: 74px;
 }
+
+img.project-img {
+    max-width: 100%;
+}
 }
 
 @-webkit-keyframes ticker {
