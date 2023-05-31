@@ -81,6 +81,11 @@ nav ul li {
   text-transform: uppercase;
 }
 
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
 .logo {
   background: white;
   color: black;
@@ -195,6 +200,7 @@ svg.title {
 }
 
 /* ----------- ABOUT ---------- */
+
 
 .profile-img-wrap {
   display: flex;
@@ -463,9 +469,17 @@ svg.lilac-arrow {
     
   }
 
-  /* section {
-    height: 80vh;
-  } */
+  .about-container{
+    padding-top: 200px;
+}
+
+.skills-container{
+    padding-top: 100px;
+}
+
+.projects{
+    padding-top: 70px;
+}
 }
 
 /* ----------- TABLET  ---------- */

@@ -116,6 +116,7 @@ projects.forEach((project) => {
   var projectBtn = document.createElement('a');
   projectBtn.classList.add('project-btn');
   projectBtn.href = project.url;
+  projectBtn.target = "blank";
   projectBtn.innerHTML = `
   view
   `;
