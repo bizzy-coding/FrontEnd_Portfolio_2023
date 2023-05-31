@@ -33,7 +33,8 @@ const projects = [
     name: "Nested Accordion",
     blurb: "FAQ section - designed in Figma, built using vanilla Javascript and CSS. Accordion functionality uses basic loop and event listeners.",
     techStack: ["html", "css", "js"],
-    img: "./imgs/FAQ.gif",
+    img: "./imgs/faq.png",
+    gif: "./imgs/FAQ.gif",
     url: "https://codepen.io/Bizzy-Coding/pen/abaoOzg",
   },
 
@@ -41,7 +42,8 @@ const projects = [
     name: "Text Animation",
     blurb: "Pure CSS animation. The 'transform: scaleY' property adjusts the text height, and alternating the transform origin on each word enables this effect.",
     techStack: ["html", "css"],
-    img: "./imgs/bizzy-animate.gif",
+    img: "./imgs/bizzy.png",
+    gif: "./imgs/bizzy-animate.gif",
     url: "https://codepen.io/Bizzy-Coding/pen/zYWqQBJ",
   },
 
@@ -49,14 +51,16 @@ const projects = [
     name: "To Do App",
     blurb: "Minimal to do list - designed with simplicity in mind and using Adobe XD. Built using Vanilla Javascript.",
     techStack: ["css", "js"],
-    img: "./imgs/todo.gif",
+    img: "./imgs/todo.png",
+    gif: "./imgs/todo.gif",
     url: "https://bizzy-coding.github.io/Javascript-To-Do-App/",
   },
   {
     name: "Tin Dog Landing Page",
     blurb: "Looking to meet new and interesting dogs nearby? You need TinDog! The pooch of your dreams could be one swipe away. The TinDog site was a module in Angela Yu’s App Brewery font end developer course, on Udemy.",
     techStack: ["html", "bs"],
-    img: "./imgs/tindog.gif",
+    img: "./imgs/tindog.png",
+    gif: "./imgs/tindog.gif",
     url: "https://bizzlebizzle.github.io/tindog/",
   },
 ];
@@ -65,13 +69,17 @@ const projectCont = document.querySelector(".projects-container");
 
 projects.forEach((project) => {
   var projectCard = document.createElement("div"),
-    projectImg = document.createElement("img"),
+    projectImgWrap = document.createElement("div"),
+    projectImg = document.createElement('img'),
+    projectGif = document.createElement('img'),
     projectTxt = document.createElement("div");
   projectCard.classList.add("project-card");
+  projectImgWrap.classList.add("project-img-wrap");
   projectImg.classList.add("project-img");
+  projectGif.classList.add("project-gif");
   projectTxt.classList.add("project-txt");
   projectCont.appendChild(projectCard);
-  projectCard.appendChild(projectImg);
+  projectCard.appendChild(projectImgWrap);
   projectCard.appendChild(projectTxt);
   console.log(projectImg);
   projectTxt.innerHTML = `
@@ -91,18 +99,26 @@ projects.forEach((project) => {
     icon.src = techIcons[tech]; 
     projectTxt.appendChild(icon);
   });
-
+//PROJECT IMAGES 
   projectImg.src = project.img;
+  projectGif.src = project.gif;
+  projectImgWrap.appendChild(projectImg);
+  projectImgWrap.appendChild(projectGif);
+  projectImgWrap.addEventListener('mouseenter', () => {
+  projectGif.classList.add('active');
+  })
+  projectImgWrap.addEventListener('mouseleave', () => {
+    projectGif.classList.remove('active');
+    })
 
+
+//PROJECT BTNS 
   var projectBtn = document.createElement('a');
   projectBtn.classList.add('project-btn');
   projectBtn.href = project.url;
   projectBtn.innerHTML = `
-  view ${lilacArrow}
-  
+  view
   `;
-
-  
 
   projectTxt.appendChild(projectBtn);
 
