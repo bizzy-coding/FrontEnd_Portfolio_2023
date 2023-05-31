@@ -313,6 +313,8 @@ img.tech-icon {
   display: grid;
   place-content: center;
   margin-top: 20px;
+  text-decoration: none;
+    color: white;
 }
 
 svg.lilac-arrow {
@@ -500,6 +502,7 @@ svg.lilac-arrow {
   }
 
   /* SKILLS */
+  
 
   .projects-container {
     flex-direction: column;

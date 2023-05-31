@@ -94,10 +94,12 @@ projects.forEach((project) => {
 
   projectImg.src = project.img;
 
-  var projectBtn = document.createElement('div');
+  var projectBtn = document.createElement('a');
   projectBtn.classList.add('project-btn');
+  projectBtn.href = project.url;
   projectBtn.innerHTML = `
   view ${lilacArrow}
+  
   `;
 
   
