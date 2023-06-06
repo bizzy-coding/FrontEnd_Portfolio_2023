@@ -11,6 +11,11 @@ body {
   margin-bottom: 100px;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 p {
   font-family: "Kodchasan", sans-serif;
   font-weight: 600;
@@ -60,7 +65,14 @@ footer {
   top: 420.36px;
   border: 2px solid #e7eaee;
   border-radius: 36px;
+}
+
+a.btn.btn-md.contact.contact-hand {
   transform: rotate(-19.69deg);
+}
+
+a.btn.btn-md.contact:hover {
+  box-shadow: 0px 0px 39px 6px rgba(178,178,235,1);
 }
 
 /* ----------- NAV ---------- */
@@ -81,10 +93,6 @@ nav ul li {
   text-transform: uppercase;
 }
 
-nav a {
-    text-decoration: none;
-    color: white;
-}
 
 .logo {
   background: white;
@@ -141,10 +149,6 @@ svg.title {
   gap: 28px;
 }
 
-.contact a {
-text-decoration: none;
-color: white;
-}
 
 .contact-hand:hover .icon-hand {
   animation: wiggle 0.5s infinite;
@@ -173,10 +177,6 @@ color: white;
 
 /* ----------- DIVIDER ---------- */
 
-.arrow a {
-  color: white;
-  text-decoration: none;
-}
 
 .arrow {
   text-align: center;
@@ -334,6 +334,10 @@ img.tech-icon {
     color: white;
 }
 
+.project-btn:hover {
+  box-shadow: 0px 0px 39px 6px rgba(178,178,235,1);
+}
+
 svg.lilac-arrow {
   position: absolute;
   right: -84px;
@@ -350,10 +354,6 @@ footer {
     align-items: center;
 }
 
-.footer-right a {
-    text-decoration: none;
-    color: white;
-}
 
 .footer-right ul {
     list-style-type: none;
@@ -452,6 +452,11 @@ footer {
 .icon-lg {
   width: 70px;
   height: 70px;
+}
+
+.icon-hand {
+  position: relative;
+  z-index: 1;
 }
 
 /* - *** --- *** --- MEDIA QUERIES --- *** --- *** - */
